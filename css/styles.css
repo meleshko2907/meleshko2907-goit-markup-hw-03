@@ -44,7 +44,6 @@ img{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 /*-----Header---*/
@@ -52,6 +51,9 @@ img{
 .header-container{
     display: flex;
     align-items: center;
+}
+
+header{
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -120,12 +122,10 @@ img{
 
 
 .hero {
-    display: block;
     background-color: #2F303A;
     width: 1200px;
-    height: 600px;
-    text-align: center;
-    
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     }
@@ -178,6 +178,11 @@ img{
 
 /*-------advantage----------*/
 
+.advantages{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .advantage-list{
     display: flex;
     justify-content:space-between;
@@ -192,9 +197,8 @@ img{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
-    color: var(--brand-color);}
-
-
+    color: var(--brand-color);
+}
 
 .advantage-list-text {
     font-size: 14px;
@@ -205,6 +209,9 @@ img{
 
 /*-------About work----------*/
 
+.about-work{
+    padding-bottom: 94px;
+}
 
 
 .photos{
@@ -225,7 +232,8 @@ img{
 /*-------Work team----------*/
 
 .work-team {background: #F5F4FA;
-    padding-top: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-team-item{
@@ -258,7 +266,6 @@ img{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color);
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -268,6 +275,10 @@ img{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+   }
+
+   .name-job{
+    padding-top: 30px;
     padding-bottom: 30px;
    }
   
@@ -275,15 +286,10 @@ img{
 
 /*-------Footer----------*/
 
-footer{
-    background-color: #2F303A;       
-    
-}
-
-.footer-container{
-    width: 1200px;
+.footer-box{
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #2F303A;
 }
 
 .logo-footer{
@@ -292,15 +298,14 @@ footer{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
-        
 }
 
-.logo-footer-part{color: #ffffff;}
-
 .location{
-    height: 81px;
     margin-top: 20px;
-    align-content: space-between;
+}
+
+.logo-footer-part{
+    color: #ffffff;
 }
 
 .location-on-map{
@@ -309,7 +314,7 @@ footer{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    
+    margin-bottom: 9px;
 }
 
 .contact-tel{
@@ -318,7 +323,6 @@ footer{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
 }
 
 
@@ -328,14 +332,18 @@ footer{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    
-    
+    }
+
+.mail-link{
+    margin-bottom: 9px;
 }
 
 /*---------Portfolio----------*/
 
 .project-list {
     background: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 
