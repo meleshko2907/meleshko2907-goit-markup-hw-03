@@ -123,7 +123,6 @@ header{
 
 .hero {
     background-color: #2F303A;
-    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 200px;
@@ -198,13 +197,14 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: var(--brand-color);
+    margin-bottom: 10px;
 }
 
 .advantage-list-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    }
+}
 
 
 /*-------About work----------*/
